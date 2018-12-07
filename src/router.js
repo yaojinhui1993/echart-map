@@ -23,6 +23,11 @@ export default new Router({
       path: '/polar',
       name: 'polar',
       component: () => import( /* webpackChunkName: "about" */ './views/Polar.vue')
+    },
+    {
+      path: '/pie',
+      name: 'pie',
+      component: () => import('./views/Pie.vue')
     }
   ]
 })
