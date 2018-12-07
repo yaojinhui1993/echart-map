@@ -28,6 +28,11 @@ export default new Router({
       path: '/pie',
       name: 'pie',
       component: () => import('./views/Pie.vue')
+    },
+    {
+      path: '/scatter',
+      name: 'scatter',
+      component: () => import('./views/Scatter.vue')
     }
   ]
 })
