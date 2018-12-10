@@ -33,6 +33,11 @@ export default new Router({
       path: '/scatter',
       name: 'scatter',
       component: () => import('./views/Scatter.vue')
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: () => import('./views/Map.vue')
     }
   ]
 })

@@ -5,6 +5,7 @@
       <router-link to="/polar">polar|</router-link>
       <router-link to="/pie">pie|</router-link>
       <router-link to="/scatter">scatter|</router-link>
+      <router-link to="/map">Map|</router-link>
     </div>
     <router-view/>
   </div>
