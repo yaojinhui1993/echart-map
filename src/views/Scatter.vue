@@ -16,10 +16,6 @@ export default {
     "v-echart": ECharts
   },
 
-  created() {
-    // console.log(graphic);
-  },
-
   data() {
     const data = [
       [

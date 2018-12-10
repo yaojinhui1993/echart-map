@@ -38,6 +38,11 @@ export default new Router({
       path: '/map',
       name: 'map',
       component: () => import('./views/Map.vue')
+    },
+    {
+      path: '/map-detail',
+      name: 'map-detail',
+      component: () => import('./views/MapDetail.vue')
     }
   ]
 })
